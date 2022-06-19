@@ -1,0 +1,36 @@
+.cover-content {
+    display: flex;
+    flex-wrap: wrap;
+    column-count: 5;
+    column-gap: 40px;
+}
+.upload-image {
+    font-family: "Segoe_UI_Bold";
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+button[type=button] {
+    background-color: rgb(203,32,39);
+    color: white;
+}
+.delete-image {
+    color: white;
+    background-color: rgb(230,0,35);
+}
+.navigation {
+    left: 29%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.option {
+    background-color: rgba(0,0,0,.25);
+}
+@media (min-width: 768px) and (max-width: 1199.99px) {
+    .navigation {
+        left: 40%;
+    }
+}
+
+
+@font-face {
+    font-family: "Segoe_UI_Bold";
+    src: url('../fonts/Segoe_UI_Bold.ttf');
+}

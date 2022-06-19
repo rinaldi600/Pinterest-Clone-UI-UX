@@ -1,0 +1,32 @@
+.navbar {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.business p:hover,
+.create p:hover,
+.analytics p:hover{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #F0F0F0;
+}
+.search input[type=text] {
+    width: 100%;
+    background-color: rgb(239,239,239);
+    border-radius: 10px;
+}
+.create ul, .analytics ul{
+    width: 150px;
+}
+.dropdown-menu-one {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.link > * {
+    font-family: "Segoe_UI_Bold";
+}
+
+@font-face {
+    font-family: "Segoe_UI_Bold";
+    src: url('../fonts/Segoe_UI_Bold.ttf');
+}

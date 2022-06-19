@@ -1,0 +1,11 @@
+button[type=button] {
+    background-color: rgb(203,32,39);
+    color: white;
+}
+.delete-image {
+    color: white;
+    background-color: rgb(230,0,35);
+}
+.option {
+    background-color: rgba(0,0,0,.25);
+}
